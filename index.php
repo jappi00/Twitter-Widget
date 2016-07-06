@@ -99,6 +99,7 @@ return [
     ],
     'menu' => [
         'twitter' => [
+            'hashtag' => 'false',
             'label' => 'twitter',
             'url' => '@twitter',
             'icon' => 'twitter:/icon.svg'

@@ -14,8 +14,13 @@
     <div class="uk-form-row">
         <div class="uk-form-controls">
             <div class="uk-form-row">
-            <label class="uk-form-label">{{ 'Twittername' | trans }}</label><input class="uk-form-width-large" type="text" v-model="config.name">
+                <label class="uk-form-label"><a href="https://twitter.com/settings/widgets/">Twitter Widget ID</a></label><input class="uk-form-width-large" type="text" v-model="config.id">
             </div>
+            <p>OR</p>
+            <div class="uk-form-row">
+            <label class="uk-form-label">{{ 'Name' | trans }}</label><input class="uk-form-width-large" type="text" v-model="config.name">
+            </div>
+            <h2>Design</h2>
             <div class="uk-form-row">
             <label class="uk-form-label">Transparent</label><input type="checkbox" v-model="config.transparent">
                 </div>
