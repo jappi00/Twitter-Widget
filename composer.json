@@ -1,7 +1,7 @@
 {
     "name": "mediatrax/twitter",
     "type": "pagekit-extension",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "title": "Twitter-Widget",
     "description": "An simple Twitter Widget!",
     "license": "MIT",
