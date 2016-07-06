@@ -1,14 +1,14 @@
 {
     "name": "mediatrax/twitter",
     "type": "pagekit-extension",
-    "version": "0.9.0",
-    "title": "twitter",
+    "version": "0.9.1",
+    "title": "Twitter Widget",
     "description": "An simple Twitter Widget!",
     "license": "MIT",
     "authors": [
         {
             "name": "Jan-Phillip Oesterling",
-            "email": "jappi2000@ewetel.net",
+            "email": "jappi2000@ewetel.net"
         }
     ],
     "extra": {
