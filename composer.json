@@ -1,0 +1,24 @@
+{
+    "name": "mediatrax/twitter",
+    "type": "pagekit-extension",
+    "version": "0.9.0",
+    "title": "twitter",
+    "description": "An simple Twitter Widget!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan-Phillip Oesterling",
+            "email": "jappi2000@ewetel.net",
+        }
+    ],
+    "extra": {
+        "icon": "icon.svg",
+        "scripts": "scripts.php"
+    },
+    "archive": {
+        "exclude": [
+            "node_modules", 
+            "!/app"
+        ]
+    }
+}
